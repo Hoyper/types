@@ -1,7 +1,4 @@
-try:
-    import pydantic.v1 as pydantic
-except ImportError:
-    import pydantic  # type: ignore[assignment]
+import pydantic
 
 
 class ModelMetaclass(pydantic.main.ModelMetaclass):
