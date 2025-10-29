@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vkbottle-types-vkru"
-version = "5.131.146.16.2"
+version = "5.131.146.16.3"
 description = "Types for vkbottle"
 authors = ["timoniq"]
 maintainers = ["FeeeeK"]
@@ -12,7 +12,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.7.2"
 pydantic = ">=1.10.6,<3"
-vkbottle-vkru = "4.3.12.2"
+vkbottle-vkru = "4.3.12.3"
 
 [tool.poetry.dev-dependencies]
 
