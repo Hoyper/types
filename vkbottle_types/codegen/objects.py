@@ -7241,6 +7241,7 @@ class PhotosPhotoSizes(BaseModel):
 class PhotosPhotoSizesType(enum.Enum):
     """ Size type """
 
+    T = "t"
     S = "s"
     M = "m"
     X = "x"
@@ -7266,6 +7267,10 @@ class PhotosPhotoSizesType(enum.Enum):
     N = "n"
     F = "f"
     MAX = "max"
+    BASE = "base"
+    U = "u"
+    V = "v"
+    ORIG = "orig"
 
 
 class PhotosPhotoTag(BaseModel):
